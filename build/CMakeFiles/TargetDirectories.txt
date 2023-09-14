@@ -1,0 +1,3 @@
+C:/Users/vi/source/repos/foton_1/build/CMakeFiles/helloworld.dir
+C:/Users/vi/source/repos/foton_1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/vi/source/repos/foton_1/build/CMakeFiles/ZERO_CHECK.dir

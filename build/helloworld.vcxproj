@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89F13B97-84E2-396B-9EF4-5CF86D7A0741}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>helloworld</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vi\source\repos\foton_1\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">helloworld.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">helloworld</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vi\source\repos\foton_1\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">helloworld.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">helloworld</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vi\source\repos\foton_1\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">helloworld.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">helloworld</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vi\source\repos\foton_1\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">helloworld.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">helloworld</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>12</ProcessorNumber>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/vi/source/repos/foton_1/build/Debug/helloworld.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/vi/source/repos/foton_1/build/Debug/helloworld.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include/QtWidgets" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include/QtGui" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include/QtCore" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/bin/archdatadir/mkspecs/win32-msvc" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include/QtEventDispatcherSupport" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include/QtFontDatabaseSupport" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include/QtThemeSupport" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include/QtAccessibilitySupport" /external:I "C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/include/QtWindowsUIAutomationSupport"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>12</ProcessorNumber>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;LIBJPEG_STATIC;QT_CORE_LIB;PCRE2_STATIC;QT_EVENTDISPATCHER_SUPPORT_LIB;QT_FONTDATABASE_SUPPORT_LIB;QT_THEME_SUPPORT_LIB;QT_ACCESSIBILITY_SUPPORT_LIB;QT_WINDOWSUIAUTOMATION_SUPPORT_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;LIBJPEG_STATIC;QT_CORE_LIB;PCRE2_STATIC;QT_EVENTDISPATCHER_SUPPORT_LIB;QT_FONTDATABASE_SUPPORT_LIB;QT_THEME_SUPPORT_LIB;QT_ACCESSIBILITY_SUPPORT_LIB;QT_WINDOWSUIAUTOMATION_SUPPORT_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtWidgets;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtGui;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtCore;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\bin\archdatadir\mkspecs\win32-msvc;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtEventDispatcherSupport;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtFontDatabaseSupport;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtThemeSupport;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtAccessibilitySupport;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtWindowsUIAutomationSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtWidgets;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtGui;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtCore;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\bin\archdatadir\mkspecs\win32-msvc;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtEventDispatcherSupport;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtFontDatabaseSupport;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtThemeSupport;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtAccessibilitySupport;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\include\QtWindowsUIAutomationSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\Qt5Widgets.lib;uxtheme.lib;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\bin\archdatadir\plugins\platforms\qwindows.lib;dwmapi.lib;imm32.lib;oleaut32.lib;shell32.lib;shlwapi.lib;winspool.lib;wtsapi32.lib;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\Qt5EventDispatcherSupport.lib;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\Qt5FontDatabaseSupport.lib;advapi32.lib;gdi32.lib;ole32.lib;user32.lib;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\Qt5ThemeSupport.lib;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\Qt5AccessibilitySupport.lib;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\Qt5WindowsUIAutomationSupport.lib;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\Qt5Gui.lib;C:\Users\vi\.conan2\p\b\freetf26a81a876c95\p\lib\freetype.lib;C:\Users\vi\.conan2\p\b\brotld50df34f2afe8\p\lib\brotlienc.lib;C:\Users\vi\.conan2\p\b\brotld50df34f2afe8\p\lib\brotlidec.lib;C:\Users\vi\.conan2\p\b\brotld50df34f2afe8\p\lib\brotlicommon.lib;C:\Users\vi\.conan2\p\b\libpn96312e019ff61\p\lib\libpng16_static.lib;opengl32.lib;C:\Users\vi\.conan2\p\b\libjp5291404200361\p\lib\libjpeg.lib;C:\Users\vi\.conan2\p\b\md4c853cabd9b3d3a\p\lib\md4c-html.lib;C:\Users\vi\.conan2\p\b\md4c853cabd9b3d3a\p\lib\md4c.lib;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\Qt5Core.lib;version.lib;winmm.lib;netapi32.lib;userenv.lib;ws2_32.lib;C:\Users\vi\.conan2\p\b\pcre288c6877fef51a\p\lib\pcre2-32-static.lib;C:\Users\vi\.conan2\p\b\pcre288c6877fef51a\p\lib\pcre2-16-static.lib;C:\Users\vi\.conan2\p\b\pcre288c6877fef51a\p\lib\pcre2-posix-static.lib;C:\Users\vi\.conan2\p\b\pcre288c6877fef51a\p\lib\pcre2-8-static.lib;C:\Users\vi\.conan2\p\b\zlib4c3f0c2ed8411\p\lib\zlib.lib;C:\Users\vi\.conan2\p\b\bzip2312a57db9615b\p\lib\bz2.lib;C:\Users\vi\.conan2\p\b\doubl6e8235fb641ef\p\lib\double-conversion.lib;C:\Users\vi\.conan2\p\b\zstdb4b77f618fbe5\p\lib\zstd_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/lib;C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/freetf26a81a876c95/p/lib;C:/Users/vi/.conan2/p/b/freetf26a81a876c95/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/bzip2312a57db9615b/p/lib;C:/Users/vi/.conan2/p/b/bzip2312a57db9615b/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/brotld50df34f2afe8/p/lib;C:/Users/vi/.conan2/p/b/brotld50df34f2afe8/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/libpn96312e019ff61/p/lib;C:/Users/vi/.conan2/p/b/libpn96312e019ff61/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/zlib4c3f0c2ed8411/p/lib;C:/Users/vi/.conan2/p/b/zlib4c3f0c2ed8411/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/libjp5291404200361/p/lib;C:/Users/vi/.conan2/p/b/libjp5291404200361/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/md4c853cabd9b3d3a/p/lib;C:/Users/vi/.conan2/p/b/md4c853cabd9b3d3a/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/pcre288c6877fef51a/p/lib;C:/Users/vi/.conan2/p/b/pcre288c6877fef51a/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/doubl6e8235fb641ef/p/lib;C:/Users/vi/.conan2/p/b/doubl6e8235fb641ef/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/zstdb4b77f618fbe5/p/lib;C:/Users/vi/.conan2/p/b/zstdb4b77f618fbe5/p/lib/$(Configuration);C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/bin/archdatadir/plugins/platforms;C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/bin/archdatadir/plugins/platforms/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/vi/source/repos/foton_1/build/Release/helloworld.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/vi/source/repos/foton_1/build/Release/helloworld.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>12</ProcessorNumber>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/vi/source/repos/foton_1/build/MinSizeRel/helloworld.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/vi/source/repos/foton_1/build/MinSizeRel/helloworld.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>12</ProcessorNumber>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/vi/source/repos/foton_1/build/RelWithDebInfo/helloworld.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/vi/source/repos/foton_1/build/RelWithDebInfo/helloworld.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vi\source\repos\foton_1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/vi/source/repos/foton_1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/vi/source/repos/foton_1 -BC:/Users/vi/source/repos/foton_1/build --check-stamp-file C:/Users/vi/source/repos/foton_1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\vi\.conan2\p\b\bzip2312a57db9615b\p\lib\cmake\conan-official-bzip2-variables.cmake;C:\Users\vi\.conan2\p\b\freetf26a81a876c95\p\lib\cmake\conan-official-freetype-variables.cmake;C:\Users\vi\.conan2\p\b\opensab10f53bee2b3\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\conan_qt_core_extras.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\conan_qt_qt5_coreprivate.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Gui\conan_qt_qt5_guiprivate.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Widgets\conan_qt_qt5_widgetsprivate.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2Config.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2Targets.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeCCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeCXXCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeRCCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeSystem.cmake;C:\Users\vi\source\repos\foton_1\build\JPEG-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\JPEG-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGConfig.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGTargets.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSL-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSL-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLConfig.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLTargets.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2Config.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2Targets.cmake;C:\Users\vi\source\repos\foton_1\build\PNG-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PNG-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PNGConfig.cmake;C:\Users\vi\source\repos\foton_1\build\PNGConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PNGTargets.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQL-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQL-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLConfig.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLTargets.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5Config.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5Targets.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3Config.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3Targets.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIB-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIB-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBConfig.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBTargets.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-config.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\brotliTargets.cmake;C:\Users\vi\source\repos\foton_1\build\cmakedeps_macros.cmake;C:\Users\vi\source\repos\foton_1\build\conan_toolchain.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-config.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversionTargets.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-config.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\freetypeTargets.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-config.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\md4cTargets.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-config.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_systemTargets.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-config.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\zstdTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vi\source\repos\foton_1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/vi/source/repos/foton_1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/vi/source/repos/foton_1 -BC:/Users/vi/source/repos/foton_1/build --check-stamp-file C:/Users/vi/source/repos/foton_1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\vi\.conan2\p\b\bzip2312a57db9615b\p\lib\cmake\conan-official-bzip2-variables.cmake;C:\Users\vi\.conan2\p\b\freetf26a81a876c95\p\lib\cmake\conan-official-freetype-variables.cmake;C:\Users\vi\.conan2\p\b\opensab10f53bee2b3\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\conan_qt_core_extras.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\conan_qt_qt5_coreprivate.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Gui\conan_qt_qt5_guiprivate.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Widgets\conan_qt_qt5_widgetsprivate.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2Config.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2Targets.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeCCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeCXXCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeRCCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeSystem.cmake;C:\Users\vi\source\repos\foton_1\build\JPEG-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\JPEG-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGConfig.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGTargets.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSL-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSL-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLConfig.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLTargets.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2Config.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2Targets.cmake;C:\Users\vi\source\repos\foton_1\build\PNG-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PNG-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PNGConfig.cmake;C:\Users\vi\source\repos\foton_1\build\PNGConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PNGTargets.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQL-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQL-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLConfig.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLTargets.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5Config.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5Targets.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3Config.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3Targets.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIB-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIB-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBConfig.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBTargets.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-config.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\brotliTargets.cmake;C:\Users\vi\source\repos\foton_1\build\cmakedeps_macros.cmake;C:\Users\vi\source\repos\foton_1\build\conan_toolchain.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-config.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversionTargets.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-config.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\freetypeTargets.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-config.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\md4cTargets.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-config.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_systemTargets.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-config.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\zstdTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vi\source\repos\foton_1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/vi/source/repos/foton_1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/vi/source/repos/foton_1 -BC:/Users/vi/source/repos/foton_1/build --check-stamp-file C:/Users/vi/source/repos/foton_1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\vi\.conan2\p\b\bzip2312a57db9615b\p\lib\cmake\conan-official-bzip2-variables.cmake;C:\Users\vi\.conan2\p\b\freetf26a81a876c95\p\lib\cmake\conan-official-freetype-variables.cmake;C:\Users\vi\.conan2\p\b\opensab10f53bee2b3\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\conan_qt_core_extras.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\conan_qt_qt5_coreprivate.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Gui\conan_qt_qt5_guiprivate.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Widgets\conan_qt_qt5_widgetsprivate.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2Config.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2Targets.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeCCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeCXXCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeRCCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeSystem.cmake;C:\Users\vi\source\repos\foton_1\build\JPEG-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\JPEG-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGConfig.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGTargets.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSL-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSL-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLConfig.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLTargets.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2Config.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2Targets.cmake;C:\Users\vi\source\repos\foton_1\build\PNG-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PNG-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PNGConfig.cmake;C:\Users\vi\source\repos\foton_1\build\PNGConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PNGTargets.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQL-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQL-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLConfig.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLTargets.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5Config.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5Targets.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3Config.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3Targets.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIB-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIB-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBConfig.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBTargets.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-config.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\brotliTargets.cmake;C:\Users\vi\source\repos\foton_1\build\cmakedeps_macros.cmake;C:\Users\vi\source\repos\foton_1\build\conan_toolchain.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-config.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversionTargets.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-config.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\freetypeTargets.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-config.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\md4cTargets.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-config.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_systemTargets.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-config.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\zstdTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vi\source\repos\foton_1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/vi/source/repos/foton_1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/vi/source/repos/foton_1 -BC:/Users/vi/source/repos/foton_1/build --check-stamp-file C:/Users/vi/source/repos/foton_1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\vi\.conan2\p\b\bzip2312a57db9615b\p\lib\cmake\conan-official-bzip2-variables.cmake;C:\Users\vi\.conan2\p\b\freetf26a81a876c95\p\lib\cmake\conan-official-freetype-variables.cmake;C:\Users\vi\.conan2\p\b\opensab10f53bee2b3\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\conan_qt_core_extras.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Core\conan_qt_qt5_coreprivate.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Gui\conan_qt_qt5_guiprivate.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\vi\.conan2\p\b\qt17932f0c0678a\p\lib\cmake\Qt5Widgets\conan_qt_qt5_widgetsprivate.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2Config.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\BZip2Targets.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeCCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeCXXCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeRCCompiler.cmake;C:\Users\vi\source\repos\foton_1\build\CMakeFiles\3.26.4-msvc4\CMakeSystem.cmake;C:\Users\vi\source\repos\foton_1\build\JPEG-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\JPEG-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGConfig.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\JPEGTargets.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSL-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSL-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLConfig.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\OpenSSLTargets.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2Config.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PCRE2Targets.cmake;C:\Users\vi\source\repos\foton_1\build\PNG-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PNG-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PNGConfig.cmake;C:\Users\vi\source\repos\foton_1\build\PNGConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PNGTargets.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQL-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQL-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLConfig.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\PostgreSQLTargets.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5Config.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\Qt5Targets.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3Config.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3ConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\SQLite3Targets.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIB-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIB-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBConfig.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBConfigVersion.cmake;C:\Users\vi\source\repos\foton_1\build\ZLIBTargets.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-config.cmake;C:\Users\vi\source\repos\foton_1\build\brotli-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\brotliTargets.cmake;C:\Users\vi\source\repos\foton_1\build\cmakedeps_macros.cmake;C:\Users\vi\source\repos\foton_1\build\conan_toolchain.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-config.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversion-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\double-conversionTargets.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-config.cmake;C:\Users\vi\source\repos\foton_1\build\freetype-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\freetypeTargets.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-config.cmake;C:\Users\vi\source\repos\foton_1\build\md4c-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\md4cTargets.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-config.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_system-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\opengl_systemTargets.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-Target-release.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-config-version.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-config.cmake;C:\Users\vi\source\repos\foton_1\build\zstd-release-x86_64-data.cmake;C:\Users\vi\source\repos\foton_1\build\zstdTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vi\source\repos\foton_1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vi\source\repos\foton_1\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\vi\source\repos\foton_1\build\ZERO_CHECK.vcxproj">
+      <Project>{98EF44D6-29CA-3C70-8265-15BF15D33D73}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

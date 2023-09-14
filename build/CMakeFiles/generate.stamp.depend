@@ -1,0 +1,112 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeParseArguments.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+C:/Users/vi/.conan2/p/b/bzip2312a57db9615b/p/lib/cmake/conan-official-bzip2-variables.cmake
+C:/Users/vi/.conan2/p/b/freetf26a81a876c95/p/lib/cmake/conan-official-freetype-variables.cmake
+C:/Users/vi/.conan2/p/b/opensab10f53bee2b3/p/lib/cmake/conan-official-openssl-variables.cmake
+C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/lib/cmake/Qt5Core/conan_qt_core_extras.cmake
+C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/lib/cmake/Qt5Core/conan_qt_qt5_coreprivate.cmake
+C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/lib/cmake/Qt5Gui/conan_qt_qt5_guiprivate.cmake
+C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+C:/Users/vi/.conan2/p/b/qt17932f0c0678a/p/lib/cmake/Qt5Widgets/conan_qt_qt5_widgetsprivate.cmake
+C:/Users/vi/source/repos/foton_1/CMakeLists.txt
+C:/Users/vi/source/repos/foton_1/build/BZip2-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/BZip2-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/BZip2Config.cmake
+C:/Users/vi/source/repos/foton_1/build/BZip2ConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/BZip2Targets.cmake
+C:/Users/vi/source/repos/foton_1/build/CMakeFiles/3.26.4-msvc4/CMakeCCompiler.cmake
+C:/Users/vi/source/repos/foton_1/build/CMakeFiles/3.26.4-msvc4/CMakeCXXCompiler.cmake
+C:/Users/vi/source/repos/foton_1/build/CMakeFiles/3.26.4-msvc4/CMakeRCCompiler.cmake
+C:/Users/vi/source/repos/foton_1/build/CMakeFiles/3.26.4-msvc4/CMakeSystem.cmake
+C:/Users/vi/source/repos/foton_1/build/JPEG-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/JPEG-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/JPEGConfig.cmake
+C:/Users/vi/source/repos/foton_1/build/JPEGConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/JPEGTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/OpenSSL-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/OpenSSL-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/OpenSSLConfig.cmake
+C:/Users/vi/source/repos/foton_1/build/OpenSSLConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/OpenSSLTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/PCRE2-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/PCRE2-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/PCRE2Config.cmake
+C:/Users/vi/source/repos/foton_1/build/PCRE2ConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/PCRE2Targets.cmake
+C:/Users/vi/source/repos/foton_1/build/PNG-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/PNG-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/PNGConfig.cmake
+C:/Users/vi/source/repos/foton_1/build/PNGConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/PNGTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/PostgreSQL-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/PostgreSQL-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/PostgreSQLConfig.cmake
+C:/Users/vi/source/repos/foton_1/build/PostgreSQLConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/PostgreSQLTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/Qt5-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/Qt5-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/Qt5Config.cmake
+C:/Users/vi/source/repos/foton_1/build/Qt5ConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/Qt5Targets.cmake
+C:/Users/vi/source/repos/foton_1/build/SQLite3-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/SQLite3-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/SQLite3Config.cmake
+C:/Users/vi/source/repos/foton_1/build/SQLite3ConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/SQLite3Targets.cmake
+C:/Users/vi/source/repos/foton_1/build/ZLIB-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/ZLIB-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/ZLIBConfig.cmake
+C:/Users/vi/source/repos/foton_1/build/ZLIBConfigVersion.cmake
+C:/Users/vi/source/repos/foton_1/build/ZLIBTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/brotli-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/brotli-config-version.cmake
+C:/Users/vi/source/repos/foton_1/build/brotli-config.cmake
+C:/Users/vi/source/repos/foton_1/build/brotli-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/brotliTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/cmakedeps_macros.cmake
+C:/Users/vi/source/repos/foton_1/build/conan_toolchain.cmake
+C:/Users/vi/source/repos/foton_1/build/double-conversion-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/double-conversion-config-version.cmake
+C:/Users/vi/source/repos/foton_1/build/double-conversion-config.cmake
+C:/Users/vi/source/repos/foton_1/build/double-conversion-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/double-conversionTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/freetype-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/freetype-config-version.cmake
+C:/Users/vi/source/repos/foton_1/build/freetype-config.cmake
+C:/Users/vi/source/repos/foton_1/build/freetype-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/freetypeTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/md4c-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/md4c-config-version.cmake
+C:/Users/vi/source/repos/foton_1/build/md4c-config.cmake
+C:/Users/vi/source/repos/foton_1/build/md4c-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/md4cTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/opengl_system-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/opengl_system-config-version.cmake
+C:/Users/vi/source/repos/foton_1/build/opengl_system-config.cmake
+C:/Users/vi/source/repos/foton_1/build/opengl_system-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/opengl_systemTargets.cmake
+C:/Users/vi/source/repos/foton_1/build/zstd-Target-release.cmake
+C:/Users/vi/source/repos/foton_1/build/zstd-config-version.cmake
+C:/Users/vi/source/repos/foton_1/build/zstd-config.cmake
+C:/Users/vi/source/repos/foton_1/build/zstd-release-x86_64-data.cmake
+C:/Users/vi/source/repos/foton_1/build/zstdTargets.cmake
